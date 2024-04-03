@@ -1,0 +1,296 @@
+@import url("https://fonts,googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi");
+
+// body{
+//     margin-top: 30px;
+// }
+.wrapper {
+    height: 420px;
+    width: 704px;
+    border-radius: 7px 7px 7px 7px ;
+    box-shadow: 0px 14px, 32px, 0px whitesmoke;
+    margin-left:10px;
+    display: flex;
+}
+.wrapper2{
+    height: 420px;
+    width: 704px;
+    border-radius: 7px 7px 7px 7px ;
+    box-shadow: 0px 14px, 32px, 0px whitesmoke;
+    margin-top:30px;
+    margin-left:590px;
+    display: flex;
+    
+}
+.wrapper3 {
+    height: 420px;
+    width: 704px;
+    border-radius: 7px 7px 7px 7px ;
+    box-shadow: 0px 14px, 32px, 0px whitesmoke;
+    margin-left:10px;
+    margin-top:30px;
+    display: flex;
+}
+.wrapper4{
+    height: 420px;
+    width: 704px;
+    border-radius: 7px 7px 7px 7px ;
+    box-shadow: 0px 14px, 32px, 0px whitesmoke;
+    margin-top:30px;
+    margin-left:590px;
+    display: flex;
+    
+}
+.img{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 0px 0px 7px;
+    
+}
+
+
+
+.info{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 0px 7px 10px 7px;
+    
+
+}
+.wrapper3 .info{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 0px 7px 10px 7px;
+    
+
+}
+.wrapper2 .info{
+    width: 50%;
+    background-color: rgb(255, 247, 240);
+    border-radius: 0px 7px 10px 7px;
+    
+
+}
+.wrapper4 .info{
+    width: 50%;
+    background-color: rgb(255, 247, 240);
+    border-radius: 0px 7px 10px 7px;
+    
+
+}
+.text{
+    height:70%;
+
+}
+h1{
+    color: cadetblue;
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+
+}
+.wrapper3 h1{
+    color: cadetblue;
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+
+}
+.wrapper2 h1{
+    color: rgb(160, 97, 95);
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+
+}
+.wrapper4 h1{
+    color: rgb(160, 97, 95);
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+
+}
+h1,p{
+    font-family: "Bentham";
+
+}
+
+h2{
+    color: #d2d2d2;
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.wrapper2 h2{
+    color: #d2d2d2;
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.wrapper3 h2{
+    color: #d2d2d2;
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.wrapper4 h2{
+    color: #d2d2d2;
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: "Raleway";
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.text p{
+    color: #8d8d8d;
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: "Playfair Display";
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.wrapper2 .text p{
+    color: black;
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: "Playfair Display";
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+.wrapper3 .text p{
+    color: #8d8d8d;
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: "Playfair Display";
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.wrapper4 .text p{
+    color: black;
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: "Playfair Display";
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+.price-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+span{
+    display:inline-block;
+    height: 50px;
+    font-family: "Suranna";
+    font-size: 34px;
+
+ }
+// .price-btn{
+//     font-size: 28px;
+//     color: #474747
+//     display:inline-block;
+//     // display: inline-block;
+//     // font-family: 'Trocchi';
+//     margin: 0;
+//     // font-weight: lighter;
+//     // line-height: 50px;
+// }
+.price-btn button{
+    float: right;
+    background-color: #9cebd5;
+    color: #ffffff;
+    width: 176px;
+    height: 50px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper3 .price-btn button{
+    float: right;
+    background-color: #9cebd5;
+    color: #ffffff;
+    width: 176px;
+    height: 50px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper2 .price-btn button{
+    float: right;
+    background-color: #eb9c9c;
+    color: white;
+    width: 176px;
+    height: 50px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper4 .price-btn button{
+    float: right;
+    background-color: #eb9c9c;
+    color: white;
+    width: 176px;
+    height: 50px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
