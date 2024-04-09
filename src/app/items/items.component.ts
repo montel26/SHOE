@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './items.component.scss'
 })
 export class ItemsComponent {
+  
+  buttonText: string = 'Buy';
+  inCart: boolean = false;
+
+  addToCart() {
+    this.buttonText = 'In Cart';
+    this.inCart = true;
+  }
 
 }

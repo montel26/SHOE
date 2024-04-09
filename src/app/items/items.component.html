@@ -18,7 +18,7 @@
                 <p>
                     <span>R2399.99</span>
                 </p>
-                <button type="button">buy</button>
+                <button (click)="addToCart()" [disabled]="inCart"> {{ buttonText }}</button>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
                 <p>
                     <span>R2799.99</span>
                 </p>
-                <button type="button">buy</button>
+                <button (click)="addToCart()" [disabled]="inCart"> {{ buttonText }}</button>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
                 <p>
                     <span>R3999.99</span>
                 </p>
-                <button type="button">buy</button>
+                <button (click)="addToCart()" [disabled]="inCart"> {{ buttonText }}</button>
             </div>
         </div>
     </div>
@@ -87,7 +87,8 @@
                 <p>
                     <span>R3699.99</span>
                 </p>
-                <button type="button">buy</button>
+                <!-- (click)="addToCart()" [disabled]="inCart"> {{ buttonText }}  -->
+                <button (click)="addToCart()" [disabled]="inCart"> {{ buttonText }} </button>
             </div>
         </div>
     </div>
